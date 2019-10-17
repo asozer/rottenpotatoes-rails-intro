@@ -13,6 +13,7 @@ class MoviesController < ApplicationController
   def index
     # @movies = Movie.all
 
+
     param_rating = params[:ratings]
     session_rating = session[:ratings]
     @current_rating = nil
